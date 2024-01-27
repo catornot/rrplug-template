@@ -8,8 +8,5 @@ edition = "2021"
 [dependencies]
 rrplug = { git = "https://github.com/catornot/rrplug.git" }
 
-[build-dependencies]
-windres = "0.2.2"
-
 [lib]
 crate-type = ["cdylib"]
